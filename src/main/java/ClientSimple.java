@@ -11,5 +11,8 @@ public class ClientSimple {
         System.out.println("### Ording an Playstation5");
         Playstation playstation5 = playstationSlimFactory.orderPlaystation("Slim", "wirelles 3.0");
         System.out.println(playstation5);
+        System.out.println("### Ording an Playstation4");
+        Playstation playstation4 = playstationSlimFactory.orderPlaystation("Slim", "wirelles");
+        System.out.println(playstation4);
     }
 }
